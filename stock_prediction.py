@@ -26,7 +26,7 @@ df = web.DataReader("NVDA", 'yahoo', start, end)
 
 ### Prepare the data for modelling ###
 # A variable for predicting 'n' days out into the future
-forecast_out = 30
+forecast_out = 2
 
 #### create a new dataframe with  10 % rows remove for  train and test our model  our  model we will use the 
 # removed data for compare it predictions with the reality ( we don't use it in training to avoid overfitting)
